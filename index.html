@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+   
+  <div class="wrapper">
+   <form method="POST" action="home.html" onsubmit="return Validate()" name="vform" >
+	   <h1>Registration</h1>
+	     <img id="avatar"   src="https://fehf2q.bn.files.1drv.com/y4mrj27TRQ72GtdSuBrScby2k2Lp84-akSKTDhwL2uvGtf4UlqthOIEtlVZHkMJu9XTYokBH_NkkFI6B5aPnyUabx_zJRRMLhLS-IqB-7KDXTv2UJVnJ6dL1xjMujtLtwf0VWBn5CmoXfOGuFqLWPWrjR90HUEMhj9Tsrw3WxByOAxvY8ETd2TEoU0u1Tk9tfdBuM-t_mx1irjuxlEfJg8zrg?width=512&height=512&cropmode=none">
+   	<div id="username_div">
+   	  <label>Username</label> <br>
+   	  <input type="text" name="username" class="textInput" placeholder="Enter your Username">
+   	  <div id="name_error"></div>
+   	</div>
+   	<div id="email_div">
+   	  <label>Email</label> <br>
+   	  <input type="email" name="email" class="textInput" placeholder="Enter your Email">
+   	  <div id="email_error"></div>
+   	</div>
+   	<div id="password_div">
+   	  <label>Password</label> <br>
+   	  <input type="password" name="password" class="textInput" placeholder="Enter your Password">
+   	</div><br>
+<br><br>
+   	<div>
+   	<input type="submit" name="register" value="Register" class="btn">
+   	</div>
+   </form>
+  </div>
+</body>
+</html>
+<script type="scripts.js"></script>

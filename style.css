@@ -1,0 +1,63 @@
+td  { 
+	 background-color: rgba(0,59,111,0.5);
+width: 200px;
+	 border-radius: 8px;
+} 
+#music {
+	 visibility: hidden;
+}
+a {
+	 line-height: 2em;
+	 color: #fff;
+	 font-family: "Times New Roman";
+	 font-size: 20px;
+}
+
+h1 {
+	 background: url("https://wallpapercave.com/wp/s0lN2r8.jpg");
+	 height: 100px;
+	 color: antiquewhite;
+	 border-radius: 40px;
+	 text-align: center;
+}
+
+body {
+	 background: url("http://www.suprakandallo.hu/adat/kep/supra-anyagmintak/castilloni-sarga-ko.jpg");
+}
+
+
+#menu {
+	 text-align: center;
+	width: 900px;
+	position : absolute;
+	 height: 818px;
+	 background: url("https://cdn1.dekoria.com/image/tjpg/127/2092/0/0/140-75.jpg");
+	 border-top-left-radius: 10px;
+	 padding-top: 50px  ;
+
+	 
+}
+
+#menu p{
+	 font-size: 20px;
+	 font-family: "calibri";
+	 background-color: cadetblue;
+	 padding: 20px 20px ;
+	 
+		  
+}
+#gephaz {
+	 float: right;
+	 width: 540px;
+	 height: 824px;
+	 border-radius: 15px
+}
+#arak {
+	 color:floralwhite  ;
+	 font-size: 20px;
+	 width: 700px;
+
+}
+.pday2 {
+	 text-align: center;
+margin: 50px}
